@@ -1150,10 +1150,11 @@
         <mxCell id="CSy488U4jaaEnT2uwnfr-282" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="777" y="-1599" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-283" value="&lt;b&gt;한국어 bert기반&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;알고리즘 선정&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-283" value="&lt;b&gt;한국어 bart기반&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;알고리즘 선정&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0065" relative="1" as="geometry">
             <mxPoint x="623" y="-1590" as="sourcePoint" />
             <mxPoint x="778" y="-1590" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CSy488U4jaaEnT2uwnfr-284" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
