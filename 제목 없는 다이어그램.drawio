@@ -255,7 +255,7 @@
         <mxCell id="CSy488U4jaaEnT2uwnfr-63" value="모델 저장 요청" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="103" y="1765" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-64" value="DB에 wjwkd" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-64" value="DB에 저장" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="263" y="1765" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CSy488U4jaaEnT2uwnfr-65" value="모델 기록" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
@@ -337,6 +337,54 @@
         </mxCell>
         <mxCell id="CSy488U4jaaEnT2uwnfr-80" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="478" y="1915" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-81" value="파라매터 변경 요청" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="187" y="2307" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-82" value="모델" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="347" y="2307" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-83" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406.5" y="2767" as="sourcePoint" />
+            <mxPoint x="406.5" y="2347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-84" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="246.5" y="2767" as="sourcePoint" />
+            <mxPoint x="246.5" y="2347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-85" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="247" y="2767" as="sourcePoint" />
+            <mxPoint x="246.5" y="2347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-86" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="242" y="2417" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-87" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="407" y="2767" as="sourcePoint" />
+            <mxPoint x="406.5" y="2347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-88" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="402" y="2417" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-89" value="&lt;b&gt;특정 버전의 모델 요청&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252" y="2427" as="sourcePoint" />
+            <mxPoint x="397" y="2427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-90" value="요청한 버전의 모델 제공" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="402" y="2525" as="sourcePoint" />
+            <mxPoint x="252" y="2525" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
