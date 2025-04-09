@@ -955,7 +955,7 @@
         <mxCell id="CSy488U4jaaEnT2uwnfr-218" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="121" y="-770" width="10" height="294" as="geometry" />
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-219" value="&lt;b&gt;모델들 간에&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;성능 비교 분석&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-219" value="&lt;b&gt;학습된 모델에&lt;/b&gt;&lt;div&gt;&lt;b&gt;데이터 삽입&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0065" relative="1" as="geometry">
             <mxPoint x="287" y="-690" as="sourcePoint" />
             <mxPoint x="442" y="-690" as="targetPoint" />
@@ -971,10 +971,11 @@
         <mxCell id="CSy488U4jaaEnT2uwnfr-222" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="281" y="-740" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-223" value="&lt;b&gt;검증 데이터를 이용해&lt;/b&gt;&lt;div&gt;&lt;b&gt;모델 성능 평가&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-222">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-223" value="&lt;b&gt;검증용 데이터 호출&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-222">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="131" y="-730" as="sourcePoint" />
             <mxPoint x="276" y="-730" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CSy488U4jaaEnT2uwnfr-224" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-228">
@@ -986,7 +987,7 @@
         <mxCell id="CSy488U4jaaEnT2uwnfr-228" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="601" y="-650" width="10" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-231" value="&lt;b&gt;최종 모델 선택&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-231" value="&lt;b&gt;모델 검증&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="447" y="-640" as="sourcePoint" />
             <mxPoint x="602" y="-640" as="targetPoint" />
