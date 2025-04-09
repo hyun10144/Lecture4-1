@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="6.4 설계서" id="UpQRPYrEkq4hLOGEVcAn">
-    <mxGraphModel dx="1434" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="2738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -679,10 +679,10 @@
         <mxCell id="CSy488U4jaaEnT2uwnfr-156" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="188" y="5801" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-157" value="파라매터 변경 요청" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-157" value="장애 기록 요청" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="165" y="6355" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-158" value="모델" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-158" value="문서" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="325" y="6355" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CSy488U4jaaEnT2uwnfr-159" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-164">
@@ -715,17 +715,599 @@
         <mxCell id="CSy488U4jaaEnT2uwnfr-164" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="380" y="6465" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-165" value="&lt;b&gt;요청된 파라매터&lt;/b&gt;&lt;div&gt;&lt;b&gt;변경 요청&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-164">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-165" value="&lt;b&gt;장애 기록&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-164">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="6475" as="sourcePoint" />
             <mxPoint x="375" y="6475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-166" value="변경 완료" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;endFill=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-166" value="&lt;b&gt;장애 기록 완료 전달&lt;/b&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0133" y="-11" width="160" relative="1" as="geometry">
             <mxPoint x="380" y="6573" as="sourcePoint" />
             <mxPoint x="230" y="6573" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-167" value="장애 기록 제공 요청" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="152" y="6867" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-168" value="문서" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="312" y="6867" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-169" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-174">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="371.5" y="7327" as="sourcePoint" />
+            <mxPoint x="371.5" y="6907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-170" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="211.5" y="7327" as="sourcePoint" />
+            <mxPoint x="211.5" y="6907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-171" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="212" y="7327" as="sourcePoint" />
+            <mxPoint x="211.5" y="6907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-172" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="207" y="6977" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-173" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-174">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="372" y="7327" as="sourcePoint" />
+            <mxPoint x="371.5" y="6907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-174" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="367" y="6977" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-175" value="&lt;b&gt;장애 기록 제공 요청&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-174">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217" y="6987" as="sourcePoint" />
+            <mxPoint x="362" y="6987" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-176" value="&lt;b&gt;장애 기록 정보 전달&lt;/b&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0133" y="-11" width="160" relative="1" as="geometry">
+            <mxPoint x="367" y="7085" as="sourcePoint" />
+            <mxPoint x="217" y="7085" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-177" value="모델별 성능 평가" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="77" y="-349" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-178" value="비교 분석" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="237" y="-349" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-179" value="최종 모델 선택" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="397" y="-349" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-180" value="모델 최적화" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="557" y="-349" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-181" value="모델 테스트" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="717" y="-349" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-182" value="최종 모델 저장" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="877" y="-349" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-183" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-194">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="296.5" y="111" as="sourcePoint" />
+            <mxPoint x="296.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-184" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="456.5" y="111" as="sourcePoint" />
+            <mxPoint x="456.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-185" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-200">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="616.5" y="111" as="sourcePoint" />
+            <mxPoint x="616.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-186" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-198">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="776.5" y="111" as="sourcePoint" />
+            <mxPoint x="776.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-187" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-202">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="936.5" y="111" as="sourcePoint" />
+            <mxPoint x="936.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-188" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-190">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="136.5" y="111" as="sourcePoint" />
+            <mxPoint x="136.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-189" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-190">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="136.5" y="111" as="sourcePoint" />
+            <mxPoint x="136.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-190" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="132" y="-269" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-191" value="&lt;b&gt;모델들 간에&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;성능 비교 분석&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0065" relative="1" as="geometry">
+            <mxPoint x="298" y="-189" as="sourcePoint" />
+            <mxPoint x="453" y="-189" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-192" value="&lt;b&gt;최종 테스트&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-198">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="786" y="-39" as="sourcePoint" />
+            <mxPoint x="932" y="-39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-193" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-194">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="296.5" y="111" as="sourcePoint" />
+            <mxPoint x="296.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-194" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="292" y="-239" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-195" value="&lt;b&gt;검증 데이터를 이용해&lt;/b&gt;&lt;div&gt;&lt;b&gt;모델 성능 평가&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-194">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142" y="-229" as="sourcePoint" />
+            <mxPoint x="287" y="-229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-196" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-200">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="616.5" y="111" as="sourcePoint" />
+            <mxPoint x="616.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-197" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-198">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="776.5" y="111" as="sourcePoint" />
+            <mxPoint x="776.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-198" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="772" y="-88" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-199" value="&lt;b&gt;검증 결과를&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;바탕으로 최적화&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="618" y="-79" as="sourcePoint" />
+            <mxPoint x="773" y="-79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-200" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="612" y="-149" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-201" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-202">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="936.5" y="111" as="sourcePoint" />
+            <mxPoint x="936.5" y="-309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-202" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="932" y="-49" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-203" value="&lt;b&gt;최종 모델 선택&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="458" y="-139" as="sourcePoint" />
+            <mxPoint x="613" y="-139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-204" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="452" y="-199" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-205" value="모델별 성능 평가" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="66" y="-850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-206" value="비교 분석" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="226" y="-850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-207" value="최종 모델 선택" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="386" y="-850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-208" value="모델 최적화" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="546" y="-850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-209" value="모델 테스트" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="706" y="-850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-210" value="최종 모델 저장" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="866" y="-850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-211" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-222">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285.5" y="-390" as="sourcePoint" />
+            <mxPoint x="285.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-212" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445.5" y="-390" as="sourcePoint" />
+            <mxPoint x="445.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-213" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-228">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605.5" y="-390" as="sourcePoint" />
+            <mxPoint x="605.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-214" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-226">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765.5" y="-390" as="sourcePoint" />
+            <mxPoint x="765.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-215" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-230">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="925.5" y="-390" as="sourcePoint" />
+            <mxPoint x="925.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-216" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-218">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125.5" y="-390" as="sourcePoint" />
+            <mxPoint x="125.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-217" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-218">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125.5" y="-390" as="sourcePoint" />
+            <mxPoint x="125.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-218" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="121" y="-770" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-219" value="&lt;b&gt;모델들 간에&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;성능 비교 분석&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0065" relative="1" as="geometry">
+            <mxPoint x="287" y="-690" as="sourcePoint" />
+            <mxPoint x="442" y="-690" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-220" value="&lt;b&gt;최종 테스트&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-226">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="-540" as="sourcePoint" />
+            <mxPoint x="921" y="-540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-221" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-222">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285.5" y="-390" as="sourcePoint" />
+            <mxPoint x="285.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-222" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="281" y="-740" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-223" value="&lt;b&gt;검증 데이터를 이용해&lt;/b&gt;&lt;div&gt;&lt;b&gt;모델 성능 평가&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-222">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="-730" as="sourcePoint" />
+            <mxPoint x="276" y="-730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-224" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-228">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605.5" y="-390" as="sourcePoint" />
+            <mxPoint x="605.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-225" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-226">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765.5" y="-390" as="sourcePoint" />
+            <mxPoint x="765.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-226" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="761" y="-589" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-227" value="&lt;b&gt;검증 결과를&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;바탕으로 최적화&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="607" y="-580" as="sourcePoint" />
+            <mxPoint x="762" y="-580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-228" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="601" y="-650" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-229" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-230">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="925.5" y="-390" as="sourcePoint" />
+            <mxPoint x="925.5" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-230" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="921" y="-550" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-231" value="&lt;b&gt;최종 모델 선택&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="447" y="-640" as="sourcePoint" />
+            <mxPoint x="602" y="-640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-232" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="441" y="-700" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-233" value="모델별 성능 평가" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="82" y="-1367" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-234" value="비교 분석" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="242" y="-1367" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-235" value="최종 모델 선택" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="402" y="-1367" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-236" value="모델 최적화" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="562" y="-1367" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-237" value="모델 테스트" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="722" y="-1367" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-238" value="최종 모델 저장" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="882" y="-1367" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-239" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-250">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301.5" y="-907" as="sourcePoint" />
+            <mxPoint x="301.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-240" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="461.5" y="-907" as="sourcePoint" />
+            <mxPoint x="461.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-241" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-256">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="621.5" y="-907" as="sourcePoint" />
+            <mxPoint x="621.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-242" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-254">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="781.5" y="-907" as="sourcePoint" />
+            <mxPoint x="781.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-243" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-258">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="941.5" y="-907" as="sourcePoint" />
+            <mxPoint x="941.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-244" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-246">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141.5" y="-907" as="sourcePoint" />
+            <mxPoint x="141.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-245" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-246">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141.5" y="-907" as="sourcePoint" />
+            <mxPoint x="141.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-246" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="137" y="-1287" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-247" value="&lt;b&gt;모델들 간에&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;성능 비교 분석&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0065" relative="1" as="geometry">
+            <mxPoint x="303" y="-1207" as="sourcePoint" />
+            <mxPoint x="458" y="-1207" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-248" value="&lt;b&gt;최종 테스트&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-254">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="791" y="-1057" as="sourcePoint" />
+            <mxPoint x="937" y="-1057" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-249" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-250">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301.5" y="-907" as="sourcePoint" />
+            <mxPoint x="301.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-250" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="297" y="-1257" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-251" value="&lt;b&gt;검증 데이터를 이용해&lt;/b&gt;&lt;div&gt;&lt;b&gt;모델 성능 평가&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-250">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="147" y="-1247" as="sourcePoint" />
+            <mxPoint x="292" y="-1247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-252" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-256">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="621.5" y="-907" as="sourcePoint" />
+            <mxPoint x="621.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-253" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-254">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="781.5" y="-907" as="sourcePoint" />
+            <mxPoint x="781.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-254" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="777" y="-1106" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-255" value="&lt;b&gt;검증 결과를&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;바탕으로 최적화&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623" y="-1097" as="sourcePoint" />
+            <mxPoint x="778" y="-1097" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-256" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="617" y="-1167" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-257" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-258">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="941.5" y="-907" as="sourcePoint" />
+            <mxPoint x="941.5" y="-1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-258" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="937" y="-1067" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-259" value="&lt;b&gt;최종 모델 선택&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="463" y="-1157" as="sourcePoint" />
+            <mxPoint x="618" y="-1157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-260" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="457" y="-1217" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-261" value="데이터 수집" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="82" y="-1860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-262" value="데이터 전처리 및&lt;div&gt;표준화&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="242" y="-1860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-263" value="데이터 분할" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="402" y="-1860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-264" value="알고리즘 선정" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="562" y="-1860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-265" value="모델 구축" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="722" y="-1860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-266" value="모델 학습" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="882" y="-1860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-267" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-278">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="301.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-268" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="461.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="461.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-269" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-284">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="621.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="621.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-270" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-282">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="781.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="781.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-271" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-286">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="941.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="941.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-272" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-274">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="141.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-273" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-274">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="141.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-274" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="137" y="-1780" width="10" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-275" value="&lt;b&gt;데이터 전처리 및 표준화&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0065" relative="1" as="geometry">
+            <mxPoint x="303" y="-1700" as="sourcePoint" />
+            <mxPoint x="458" y="-1700" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-276" value="&lt;b&gt;최종 테스트&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-282">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="791" y="-1550" as="sourcePoint" />
+            <mxPoint x="937" y="-1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-277" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-278">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="301.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-278" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="297" y="-1750" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-279" value="&lt;b&gt;검증 데이터를 이용해&lt;/b&gt;&lt;div&gt;&lt;b&gt;모델 성능 평가&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-278">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="147" y="-1740" as="sourcePoint" />
+            <mxPoint x="292" y="-1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-280" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-284">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="621.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="621.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-281" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-282">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="781.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="781.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-282" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="777" y="-1599" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-283" value="&lt;b&gt;한국어 bert기반&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;알고리즘 선정&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623" y="-1590" as="sourcePoint" />
+            <mxPoint x="778" y="-1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-284" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="617" y="-1660" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-285" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-286">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="941.5" y="-1400" as="sourcePoint" />
+            <mxPoint x="941.5" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-286" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="937" y="-1560" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-287" value="&lt;b&gt;데이터 분할&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="463" y="-1650" as="sourcePoint" />
+            <mxPoint x="618" y="-1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-288" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="457" y="-1710" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
