@@ -1262,7 +1262,7 @@
         <mxCell id="CSy488U4jaaEnT2uwnfr-306" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="295" y="-1247" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-307" value="&lt;b&gt;검증 데이터를 이용해&lt;/b&gt;&lt;div&gt;&lt;b&gt;모델 성능 평가&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-306">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-307" value="&lt;b&gt;원문과 요약문이 맵핑된&lt;/b&gt;&lt;div&gt;&lt;b&gt;텍스트 데이터 수집&lt;/b&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-306">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="145" y="-1237" as="sourcePoint" />
             <mxPoint x="290" y="-1237" as="targetPoint" />
