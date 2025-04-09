@@ -434,6 +434,55 @@
             <mxPoint x="410" y="3094" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-106" value="배포 모듈 실행" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="353" y="3450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-107" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.5" y="3910" as="sourcePoint" />
+            <mxPoint x="412.5" y="3490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-108" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-110">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="252.5" y="3910" as="sourcePoint" />
+            <mxPoint x="252.5" y="3490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-109" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-110">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="253" y="3910" as="sourcePoint" />
+            <mxPoint x="252.5" y="3490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-110" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="248" y="3560" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-111" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="3910" as="sourcePoint" />
+            <mxPoint x="412.5" y="3490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-112" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="408" y="3560" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-113" value="&lt;b&gt;AI 모델 배포 요청&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CSy488U4jaaEnT2uwnfr-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="258" y="3570" as="sourcePoint" />
+            <mxPoint x="403" y="3570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-114" value="&lt;b&gt;배포 모듈 전달&lt;/b&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry y="-10" width="160" relative="1" as="geometry">
+            <mxPoint x="408" y="3668" as="sourcePoint" />
+            <mxPoint x="258" y="3668" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSy488U4jaaEnT2uwnfr-115" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="238" y="3403" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
