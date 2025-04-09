@@ -1272,8 +1272,8 @@
             <mxPoint x="131" y="-518" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-319" value="&lt;b&gt;[정확도&amp;nbsp;&lt;/b&gt;≤&lt;b&gt;&amp;nbsp;85%]&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="790" y="-647" width="96" height="26" as="geometry" />
+        <mxCell id="CSy488U4jaaEnT2uwnfr-319" value="&lt;b&gt;[ 정확도&amp;nbsp;&lt;/b&gt;≤&lt;b&gt;&amp;nbsp;85% ]&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="139" y="-575" width="103" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
