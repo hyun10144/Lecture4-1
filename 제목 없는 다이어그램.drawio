@@ -1246,7 +1246,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CSy488U4jaaEnT2uwnfr-276" value="&lt;b&gt;최종 테스트&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-282">
+        <mxCell id="CSy488U4jaaEnT2uwnfr-276" value="&lt;b&gt;알고리즘 별 학습 모델 구축&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="CSy488U4jaaEnT2uwnfr-282">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="791" y="-1550" as="sourcePoint" />
             <mxPoint x="937" y="-1550" as="targetPoint" />
